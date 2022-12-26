@@ -1,0 +1,236 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+    background-color: whitesmoke;
+    margin: 0;
+}
+/* __________________________________________________navbar___________________________________________________ */
+nav {
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    margin: 0 5%;
+    padding: 0;
+}
+
+.tabs {
+    max-width: 100%;
+    overflow-x: hidden;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
+}
+
+nav p {
+    display: flex;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    margin-left: 50%;
+    margin-top: 10px;
+    color: rgb(159, 137, 111);
+}
+
+nav ul li {
+    height: 100%;
+    margin: 0 5%;
+    text-decoration: none;
+    color: rgb(159, 137, 111);
+}
+
+a:active {
+    text-decoration: none;
+    color: rgb(96, 82, 67);
+}
+
+a:visited {
+    text-decoration: none;
+    color: rgb(159, 137, 111);
+}
+
+a:hover {
+    text-decoration: none;
+    color: rgb(124, 106, 87);
+}
+
+a:link {
+    text-decoration: none;
+    color: rgb(159, 137, 111);
+}
+
+.container-ask {
+    margin: 10% 20%;
+    /* display: flex; */
+    justify-content: left;
+    font-size: 10vh;
+}
+
+#sp-text {
+    display: flex;
+    height: 20%;
+    color: rgb(159, 137, 111);
+    position: relative;
+    
+}
+#sp-text:hover{
+    filter: blur(7px);
+}
+
+#thoughts {
+    transition: 1s ease;
+}
+
+#thoughts:hover {
+    color: whitesmoke;
+    background-color: rgb(159, 137, 111);
+
+}
+
+button {
+    border: 3px dotted;
+    background: none;
+    display: flex;
+    justify-content: center;
+    padding: 2vh 2vh 2vh 2vh;
+    margin: 1vh 1vh 1vh 1vh;
+    font-size: 2vh;
+
+}
+
+button:hover {
+    transition: linear 0.5s;
+    background-color: rgb(159, 137, 111);
+    color: whitesmoke;
+    border-color: whitesmoke;
+}
+
+.ques-mark:hover {
+    transition: linear 0.5s;
+    background-color: rgb(159, 137, 111);
+    color: whitesmoke;
+    border-color: whitesmoke;
+}
+
+/* __________________________________________about section_________________________________________________ */
+.about {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    background-color: rgb(159, 137, 111);
+    color: rgb(20, 18, 18);
+    width: 100%;
+    height: 80vh;
+    color: whitesmoke;
+}
+
+.about h1 {
+    width: 100%;
+    margin: 10%;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+}
+
+/* _______________________________________________contact section_________________________________________________ */
+.contact h1 {
+    position: relative;
+    right: 14%;
+    width: 100%;
+    margin: -2vh;
+    padding-right: 10%;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+}
+
+.alpha:hover {
+    transition: linear 1s;
+    margin: 2%;
+    background-color: whitesmoke;
+    color: rgb(159, 137, 111);
+    font-size: 9vh;
+}
+
+.content-about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+    border: dotted 0.5vh;
+    border-color: aliceblue;
+    margin-right: 7%;
+    flex-wrap: wrap;
+    word-wrap: break-word;
+    color: whitesmoke;
+
+}
+
+.content-about:hover {
+    color: black;
+}
+
+.contact {
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border: dashed;
+    height: 70vh;
+}
+
+
+.contact-form {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+    margin: -5%;
+    right: 20%;
+}
+
+#fname,
+#lname,
+#mname,
+#email,
+#country,
+#query {
+    width: 100%;
+    padding: 2%;
+    margin: 1%;
+    /* border-style: none; */
+    border-radius: 25px;
+    background-color: whitesmoke;
+
+}
+
+.beta:hover {
+    transition: linear 1s;
+    margin: 2%;
+    background-color: rgb(159, 137, 111);
+    color: whitesmoke;
+    font-size: 9vh;
+}
+
+#contact-submit-btn {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    border: dotted;
+    border-radius: 10%;
+    width: 100%;
+}
